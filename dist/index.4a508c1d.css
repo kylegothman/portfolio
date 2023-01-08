@@ -11998,6 +11998,11 @@ textarea.form-control-lg {
   }
 }
 
+@font-face {
+  font-family: firaCode;
+  src: url("FiraCode-VF.227540df.ttf");
+}
+
 .mb-8 {
   margin-bottom: 8rem !important;
 }
@@ -12012,7 +12017,7 @@ html.sr .load-hidden {
 
 body {
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: firaCode, Montserrat, sans-serif;
 }
 
 h1, .h1 {
@@ -12020,7 +12025,7 @@ h1, .h1 {
 }
 
 p, a {
-  font-family: Montserrat, sans-serif;
+  font-family: firaCode, Montserrat, sans-serif;
   font-size: 1.6rem;
 }
 
@@ -12033,7 +12038,6 @@ a:hover {
 }
 
 .section-title {
-  text-transform: uppercase;
   margin: 0 0 4.5rem;
   font-size: 4rem;
   font-weight: bold;
@@ -12395,6 +12399,7 @@ section {
   align-items: center;
   margin-bottom: 0;
   padding: 0 5.6rem;
+  font-family: firaCode;
   font-weight: 400;
   display: flex;
   inset: 0;
@@ -12409,7 +12414,6 @@ section {
 #hero .hero-title {
   text-align: left;
   margin-bottom: 3.2rem;
-  font-size: 5.6rem;
   font-weight: 700;
 }
 

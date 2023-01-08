@@ -1,3 +1,11 @@
+// FONT
+@font-face {
+    font-family: firaCode;
+    src: url(./assets/fonts/FiraCode-VF.ttf);
+}
+
+$default-font-family: firaCode;
+
 // COLORS
 $primary-color: #02aab0;
 $secondary-color: #00cdac;

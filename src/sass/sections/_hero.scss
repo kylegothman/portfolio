@@ -5,6 +5,7 @@
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
+  font-family: firaCode;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -29,7 +30,6 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
